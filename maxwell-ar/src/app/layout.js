@@ -21,10 +21,6 @@ export default function RootLayout({ children }) {
           src="https://aframe.io/releases/1.3.0/aframe.min.js"
           strategy="beforeInteractive"
         />
-        <Script
-          src="https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar.js"
-          strategy="beforeInteractive"
-        />
       </head>
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
         {children}

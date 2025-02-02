@@ -17,10 +17,8 @@ export async function POST(request: Request) {
             );
         }
 
-        const apiKey = "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";
-
         const client = new RealtimeClient({
-            apiKey: apiKey || "",
+            apiKey: "",
         });
 
         client.updateSession({
